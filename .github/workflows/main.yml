@@ -19,13 +19,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          path: editor
           node-version: 18
-      - name: Checkout editor repo
-        uses: actions/checkout@v4
-        with:
-          repository: master
-          path: master
       - run: |
           npm ci
           npm run run_id
@@ -37,6 +31,8 @@ jobs:
           git add .
           git commit -m 'Updating ttl with Github Actions'
           git push origin editor
+          git branch master
+          git checkout master
           git push origin master
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
