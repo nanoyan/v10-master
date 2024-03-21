@@ -33,7 +33,7 @@ jobs:
           git push origin editor
           git branch master
           git checkout master
-          git remote add -m https://github.com/nanoyan/v10-master.git
-          git push origin master
+          git remote add origin https://github.com/nanoyan/v10-master.git
+          git push origin master --force
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
