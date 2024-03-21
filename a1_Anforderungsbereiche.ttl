@@ -15,48 +15,6 @@ n1:v9q
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "2"@de.
-n1:r5c
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "3"@de.
-n1:y3c
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "4"@de.
-n1:a5s
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "7"@de.
-n1:g6x
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "8"@de.
-n1:f2d
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "10"@de.
-n1:f3t
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "12"@de.
-n1:d5v
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "11"@de.
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
@@ -64,11 +22,4 @@ n0:
 	dct:description "Der Erwerb prozess- und inhaltsbezogener Kompetenzen erfolgt in der aktiven Auseinandersetzung mit mathematischen Aufgabenstellungen und Anforderungen. Diesbezüglich lassen sich drei Anforderungsbereiche unterscheiden: Reproduzieren, Zusammenhänge herstellen sowie Verallgemeinern und Reflektieren. Im Allgemeinen nehmen Anspruch und kognitive Komplexität von Anforderungsbereich I bis Anforderungsbereich III zu. Die Auseinandersetzung mit Aufgabenstellungen zu allen drei Anforderungsbereichen ist für alle Schülerinnen und Schüler – unabhängig vom mathematischen Leistungsvermögen – von zentraler Bedeutung, um erfolgreich und nachhaltig prozessbezogene und inhaltsbezogene Kompetenzen auf- und auszubauen. Die Anforderungsbereiche sind wie folgt charakterisiert:"@de;
 	skos:hasTopConcept
 		n1:f3q,
-		n1:v9q,
-		n1:r5c,
-		n1:y3c,
-		n1:a5s,
-		n1:g6x,
-		n1:f2d,
-		n1:f3t,
-		n1:d5v.
+		n1:v9q.
