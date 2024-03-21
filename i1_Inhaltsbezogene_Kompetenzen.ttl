@@ -177,7 +177,7 @@ n1:f3r
 	skos:inScheme n0:;
 	skos:notation "2.2.3";
 	skos:broader n1:x4p;
-	skos:prefLabel "benennen Größenangaben mit verschiedenen Einheiten und stellen diese in unterschiedlichen Schreibweisen (z. B. 2,5 km | 2500 m | 2 km 500 m) dar. "@de.
+	skos:prefLabel "benennen Größenangaben mit verschiedenen Einheiten und stellen diese in unterschiedlichen Schreibweisen (z. B. 2,5 km "@de.
 n1:x4p
 	 a skos:Concept;
 	skos:inScheme n0:;
