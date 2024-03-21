@@ -51,6 +51,12 @@ n1:f3t
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "12"@de.
+n1:d5v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "11"@de.
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
@@ -64,4 +70,5 @@ n0:
 		n1:a5s,
 		n1:g6x,
 		n1:f2d,
-		n1:f3t.
+		n1:f3t,
+		n1:d5v.
