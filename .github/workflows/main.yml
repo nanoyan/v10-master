@@ -26,8 +26,8 @@ jobs:
           npm run run_ttl
       - name: Update ttl
         run: |
-          git config --global user.email "yanpingchenlin@gmail.com"
-          git config --global user.name "nanoyan"
+          git config --global user.email ${{ secrets.EMAIL }}
+          git config --global user.name ${{ secrets.USERNAME }}
           git add .
           git commit -m 'Updating ttl with Github Actions'
           git push origin master
