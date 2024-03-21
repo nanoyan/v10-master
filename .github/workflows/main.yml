@@ -1,0 +1,33 @@
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+name: Build and deploy
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          node-version: 18
+      - run: |
+          npm ci
+          npm run run_id
+          npm run run_ttl
+      - name: Update ttl
+        run: |
+          git add .
+          git commit -m 'Updating ttl with Github Actions'
+          git push origin master
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
