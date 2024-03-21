@@ -2,10 +2,10 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - editor
   pull_request:
     branches:
-      - master
+      - editor
 
 name: Build and deploy
 
@@ -30,6 +30,7 @@ jobs:
           git config --global user.name ${{ secrets.USERNAME }}
           git add .
           git commit -m 'Updating ttl with Github Actions'
+          git push origin editor
           git push origin master
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
