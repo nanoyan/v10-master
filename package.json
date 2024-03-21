@@ -1,0 +1,23 @@
+{
+  "name": "v10",
+  "version": "0.4.0",
+  "description": "Bildungsstandards Mathematik Primar 2022",
+  "main": "index.js",
+  "scripts": {
+    "run_id": "addidcsv csv",
+    "run_ttl": "csv2ttl csv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqb-vocabs/v10.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iqb-vocabs/v10/issues"
+  },
+  "homepage": "https://github.com/iqb-vocabs/v10#readme",
+  "dependencies": {
+    "@iqb/csv2ttl": "^0.7.4"
+  }
+}
