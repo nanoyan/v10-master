@@ -24,7 +24,7 @@ jobs:
       - name: Checkout editor repo
         uses: actions/checkout@v4
         with:
-          repository: v10-master/master
+          repository: master
           path: master
       - run: |
           npm ci
