@@ -21,48 +21,6 @@ n1:f7x
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "3"@de.
-n1:q9c
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "4"@de.
-n1:a4u
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "5"@de.
-n1:s5t
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "6"@de.
-n1:x5f
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "7"@de.
-n1:g6e
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "8"@de.
-n1:r6s
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "9"@de.
-n1:z4e
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "10"@de.
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
@@ -71,11 +29,4 @@ n0:
 	skos:hasTopConcept
 		n1:f3q,
 		n1:v9q,
-		n1:f7x,
-		n1:q9c,
-		n1:a4u,
-		n1:s5t,
-		n1:x5f,
-		n1:g6e,
-		n1:r6s,
-		n1:z4e.
+		n1:f7x.
