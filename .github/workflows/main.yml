@@ -30,7 +30,7 @@ jobs:
           git config --global user.name ${{ secrets.USERNAME }}
           git add .
           git commit -m 'Updating ttl with Github Actions'
-          git push origin editor
+          git push origin editor --force
           git branch master
           git checkout master
           git push origin master --force
